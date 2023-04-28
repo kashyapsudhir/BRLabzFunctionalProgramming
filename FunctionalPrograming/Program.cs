@@ -11,7 +11,7 @@ namespace FunctionalPrograming
             //VowelConsonant.CheckAlphabet();
             //Swap.SwapingTheNumber();
             //LargestNumber.FindTheLargestNumber();
-            QuotientAndRemainder.FindQuotientAndRemainder();
+            FindEvenOdd.FindEvenOddNumber();
         }
     }
 }
