@@ -10,7 +10,8 @@ namespace FunctionalPrograming
 
             //VowelConsonant.CheckAlphabet();
             //Swap.SwapingTheNumber();
-            LargestNumber.FindTheLargestNumber();
+            //LargestNumber.FindTheLargestNumber();
+            QuotientAndRemainder.FindQuotientAndRemainder();
         }
     }
 }
