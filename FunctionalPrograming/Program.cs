@@ -8,7 +8,7 @@ namespace FunctionalPrograming
         {
             Console.WriteLine("Welcome to functional Program Practice Problems");
 
-
+            VowelConsonant.CheckAlphabet();
         }
     }
 }
