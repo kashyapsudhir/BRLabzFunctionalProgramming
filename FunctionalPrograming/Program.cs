@@ -7,15 +7,9 @@ namespace FunctionalPrograming
         public static void Main(string[] args) 
         {
             Console.WriteLine("Welcome to functional Program Practice Problems");
-
-            //VowelConsonant.CheckAlphabet();
-            //Swap.SwapingTheNumber();
-            //LargestNumber.FindTheLargestNumber();
-
-            Console.WriteLine("Enter num of flips");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-            FlipCoin.FindFlipCoin(num);
+            int YEAR = Convert.ToInt32(Console.ReadLine());
+            LeapYear.FindLeapYear(YEAR);
+            
 
         }
     }
