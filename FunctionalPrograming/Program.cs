@@ -11,7 +11,12 @@ namespace FunctionalPrograming
             //VowelConsonant.CheckAlphabet();
             //Swap.SwapingTheNumber();
             //LargestNumber.FindTheLargestNumber();
-            FindEvenOdd.FindEvenOddNumber();
+
+            Console.WriteLine("Enter num of flips");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            FlipCoin.FindFlipCoin(num);
+
         }
     }
 }
