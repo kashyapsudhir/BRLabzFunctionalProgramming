@@ -7,8 +7,9 @@ namespace FunctionalPrograming
         public static void Main(string[] args) 
         {
             Console.WriteLine("Welcome to functional Program Practice Problems");
-            int YEAR = Convert.ToInt32(Console.ReadLine());
-            LeapYear.FindLeapYear(YEAR);
+            Console.WriteLine("enter your number");
+            int Number = Convert.ToInt32(Console.ReadLine());
+            Harmonic.HarmonicNumber(Number);
             
 
         }
